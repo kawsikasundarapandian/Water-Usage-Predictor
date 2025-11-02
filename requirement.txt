@@ -1,0 +1,7 @@
+| Library           | Purpose                        |
+| ----------------- | ------------------------------ |
+| `tabulate`        | Display data in table format   |
+| `random`          | Generate weather data          |
+| `datetime`        | Display current date & time    |
+| `deep_translator` | Translate output to Tamil      |
+| `csv`             | Export results into a CSV file |
