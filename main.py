@@ -1,7 +1,8 @@
-from tabulate import tabulate
+#pip install tabulate
+from tabulate import tabulate  
 import random
 from datetime import datetime
-from deep_translator import GoogleTranslator
+from deep_translator import GoogleTranslator # pyright: ignore[reportMissingImports]
 import csv
 
 CROP_WATER_REQUIREMENT = {
@@ -57,10 +58,10 @@ def daily_advice(water):
         return "💧 Water lightly today."
 
 def main():
-    print("______________\n")
+    print("______________________________________\n")
     
     print("   🌊 ADVANCED WATER USAGE PREDICTOR   ")
-    print("_____________\n")
+    print("_______________________________________\n")
 
     now = datetime.now().strftime("%d-%m-%Y %H:%M:%S")
     print(f"📅 Date & Time: {now}\n")
@@ -138,5 +139,5 @@ def main():
 
     print("\n✔ Program completed successfully!")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
